@@ -1,0 +1,31 @@
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\Travel Manager.csprojAssemblyReference.cache
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\App.g.cs
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\Travel Manager_MarkupCompile.cache
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\Resources\ButtonStyle.baml
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\bin\Debug\Travel Manager.exe.config
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\bin\Debug\Travel Manager.exe
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\bin\Debug\Travel Manager.pdb
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\bin\Debug\MaterialDesignColors.dll
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\bin\Debug\MaterialDesignColors.pdb
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\View\Signin.g.cs
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\Travel Manager_MarkupCompile.lref
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\App.baml
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\View\Signin.baml
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\Travel Manager.g.resources
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\Travel_Manager.Properties.Resources.resources
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\Travel Manager.csproj.GenerateResource.cache
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\Travel Manager.csproj.CoreCompileInputs.cache
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\Travel Manager.csproj.CopyComplete
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\Travel Manager.exe
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\Travel Manager.pdb
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\View\Signup.g.cs
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\View\Signup.baml
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\Resources\Card.g.cs
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\Resources\Card.baml
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\View\AddTour.g.cs
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\View\AddTour.baml
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\View\AddStaff.g.cs
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\View\AddStaff.baml

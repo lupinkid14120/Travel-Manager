@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\App.xaml
-8-124410301
+11-1744134061
 
-12310252089
+15659992369
 151748070574
-Resources\ButtonStyle.xaml;Resources\Card.xaml;View\AddStaff.xaml;View\AddTour.xaml;View\ForgetPass.xaml;View\MainScreen.xaml;View\Signin.xaml;View\Signup.xaml;
+Resources\ButtonStyle.xaml;Resources\Card.xaml;Resources\Staff.xaml;View\AddStaff.xaml;View\AddTour.xaml;View\ForgetPass.xaml;View\MainScreen.xaml;View\Signin.xaml;View\Signup.xaml;View\StaffScreen.xaml;View\Tour.xaml;
 
-False
+True
 

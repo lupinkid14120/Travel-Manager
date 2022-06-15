@@ -1,0 +1,59 @@
+﻿<Window x:Class="Travel_Manager.View.Tour"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Travel_Manager.View"
+        mc:Ignorable="d"
+        Title="Tour" 
+        Height="674" 
+        Width="1063">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="574" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0"
+              Background="White">
+            <Button
+                Content="Thêm Tour"
+                FontStyle="Normal"
+                FontSize="25"
+                Width="170"
+                Height="50"
+                FontWeight="Bold"
+                materialDesign:ButtonAssist.CornerRadius="4"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                Margin="0,0,100,0"
+                Background="#007FFF">
+
+            </Button>
+        </Grid>
+        <Grid 
+                    Grid.Row="1"
+                    x:Name="grdCard"
+                    Background="Gray"
+                    HorizontalAlignment="Center" 
+                    Width="1058" 
+                    VerticalAlignment="Top" >
+            <ScrollViewer
+                        HorizontalScrollBarVisibility="Visible" 
+                        Margin="10,0,0,0" 
+                        Width="1120" 
+                        HorizontalAlignment="Right" 
+                        VerticalScrollBarVisibility="Auto" 
+                        VerticalAlignment="Top">
+                <WrapPanel  
+                            x:Name="wpCardField"
+                            Width="1120" 
+                            HorizontalAlignment="Left" 
+                            ScrollViewer.VerticalScrollBarVisibility="Auto" 
+                            ScrollViewer.HorizontalScrollBarVisibility="Visible" 
+                            Margin="0">
+                </WrapPanel>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Window>

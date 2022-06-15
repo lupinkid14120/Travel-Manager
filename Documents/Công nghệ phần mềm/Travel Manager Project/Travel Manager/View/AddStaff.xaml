@@ -296,7 +296,7 @@
                         </DatePicker>
                     </Grid>
                     <Grid 
-                Margin="0,310,0,0" 
+                Margin="0,300,0,0" 
                 VerticalAlignment="Top"
                 x:Name="grdAddress" 
                 Width="420" 
@@ -340,7 +340,7 @@
                         </TextBox>
                     </Grid>
                     <Grid 
-                Margin="0,370,0,0" 
+                Margin="0,360,0,0" 
                 VerticalAlignment="Top" 
                 x:Name="grdTelephoneNumber"
                 Width="420" 

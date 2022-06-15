@@ -21,6 +21,57 @@
                 <!--Thay doi hinh anh-->
                 <ImageBrush x:Name="image" ImageSource="..//Image/DaLat.jpg"/>
             </Grid.Background>
+
+            <Button 
+            x:Name="btnEdit"
+            Visibility="Visible"
+            Foreground="blue"
+            Command="{Binding  EditCardFieldCommand}"
+            CommandParameter="{Binding ElementName=ucField}"
+            Style="{StaticResource MaterialDesignRaisedButton}"
+            Background="{x:Null}" 
+            BorderBrush="{x:Null}" 
+            FocusVisualStyle="{x:Null}"
+            ToolTip="Sửa thông tin"
+            Height="50"
+            materialDesign:ButtonAssist.CornerRadius="6"
+            Margin="0,58,50,0" 
+            FontSize="16" 
+            VerticalAlignment="Top" 
+            Width="50"
+            HorizontalAlignment="Center" 
+            Padding="0"
+            FontWeight="SemiBold" >
+                <materialDesign:PackIcon 
+                Kind="SquareEditOutline" 
+                Width="34"
+                Height="34" />
+            </Button>
+
+            <Button
+                x:Name="btnDelete"
+            Visibility="Visible"
+            Foreground="Red"
+            Style="{StaticResource MaterialDesignRaisedButton}"
+            Command="{Binding DeleteCardFieldCommand}"
+            Background="{x:Null}" 
+            BorderBrush="{x:Null}" 
+            FocusVisualStyle="{x:Null}"
+            ToolTip="Xoá"
+            Height="50"
+            materialDesign:ButtonAssist.CornerRadius="6"
+            Margin="50,58,0,0" 
+            FontSize="16" 
+            VerticalAlignment="Top" 
+            Width="50"
+            HorizontalAlignment="Center" 
+            Padding="0"
+            FontWeight="SemiBold">
+                <materialDesign:PackIcon 
+                Kind="DeleteOutline" 
+                Width="34"
+                Height="34"/>
+            </Button>
         </Grid>
         <Grid 
             Margin="0" 
@@ -48,7 +99,8 @@
                 Visibility="Visible"
                 FontSize="14"
                 FontWeight="Medium"
-                Text="thanh pho"
+                Text="Tour du lịch Sài Gòn-Đà Lạt | Tham quan cánh đồng hoa Đà Lạt
+"
                 Margin="10,0,0,0"/>
             <TextBlock
                 Grid.Row="1"
@@ -118,17 +170,27 @@
                 Grid.Row="4"
                 x:Name="txbCost"
                 HorizontalAlignment="Right"
-                VerticalAlignment="Bottom"
+                VerticalAlignment="Top"
                 Visibility="Visible"
                 FontSize="24"
                 Text="1.800.000"
-                Margin="0,0,15,10"
+                Margin="0,0,15,0"
                 FontWeight="Bold"
                 Foreground="Red"/>
+            <Button
+                Grid.Row="4"
+                x:Name="btnBooking"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Bottom"
+                Margin="0,0,15,5"
+                Content="Đặt Tour"
+                Background="#007FFF"
+                Foreground="White"
+                />
         </Grid>
 
         <Rectangle 
-                Fill="white"
+                Fill="White"
                 HorizontalAlignment="Left"
                 Height="420" 
                 Width="280" 

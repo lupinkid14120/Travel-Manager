@@ -1,0 +1,310 @@
+﻿<Window x:Class="Travel_Manager.View.MainScreen"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Travel_Manager.View"
+        mc:Ignorable="d"
+        Icon="..//Image/travel.png"
+        Title="Quản lý tour du lịch"
+        Background="{x:Null}"
+        Height="810" 
+        Width="1250"
+        ResizeMode="CanMinimize"
+        WindowStartupLocation="CenterScreen">
+    <Grid Background="#FFF8F7FC">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="180"/>
+            <ColumnDefinition x:Name="Screen" Width="auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid x:Name="grMenu" Grid.Column="0"
+                  Background="Transparent" 
+                  Grid.ColumnSpan="2"
+                  VerticalAlignment="Top"
+                  HorizontalAlignment="Left"
+                  Width="180" Height="779">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="180"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0"
+                    x:Name="grdTitle"
+                    Margin="0,15,0,0"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Center"
+                  Background="Transparent"
+                    Height="100"
+                    Width="100">
+                <!--<i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Loaded">
+                        <i:InvokeCommandAction Command="{Binding loadedImageAndNameCommand}"
+                                                   CommandParameter="{Binding ElementName=wdhome}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>-->
+                <Rectangle x:Name="recAccount" Stroke="Transparent" RadiusX="15" RadiusY="15" >
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="..//Image/backgroundsignin.jpg"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <TextBlock x:Name="tbUserName" 
+                           FontFamily="Hierarchy" 
+                           FontWeight="ExtraBold" FontSize="15" Text="Nhân viên"  HorizontalAlignment="Center"
+                           Padding="10,2,0,0"
+                           VerticalAlignment="Bottom" Height="20" Width="113" Margin="14,0,-5,-40"/>
+            </Grid>
+
+            <Grid  Grid.Row="1" Background="#E0FFFF">
+                <StackPanel HorizontalAlignment="Center"
+                            Margin="2,0,0,0"
+                            VerticalAlignment="top"
+                            Background="Transparent"
+                            Width="160" 
+                            Height="600"
+                            Grid.RowSpan="20">
+                    <Grid x:Name="grHome"
+                          HorizontalAlignment="Center"
+                          VerticalAlignment="Top"
+                          Height="40"
+                          Width="150"
+                          Margin="0,10,0,30">
+                        <materialDesign:PackIcon 
+                            VerticalAlignment="Top"
+                            Margin="0,2,0,0"
+                            x:Name="icHome"
+                            Kind="HomeOutline"
+                            Foreground="White"
+                            Opacity="1"
+                            Height="32"
+                            Width="32"/>
+                        <Button
+                            x:Name="btnHome"
+                            FontFamily="Hierarchy"
+                            Style="{StaticResource MaterialDesignRaisedLightButton}"
+                            Opacity="0.75"
+                            Foreground="White"
+                  
+                            Background="Transparent"
+                            BorderThickness="0"
+                            VerticalAlignment="Top"
+                            HorizontalAlignment="Center"
+                            materialDesign:RippleAssist.Feedback="#cfcfc4"
+                            Content="  Trang chủ"
+                            FontSize="18" Height="44" Width="146">
+                            <!--<i:Interaction.Triggers>
+
+                                <i:EventTrigger EventName="Click">
+                                    <i:InvokeCommandAction Command="{Binding OpengrHomeCommand}"
+                                                               CommandParameter="{Binding ElementName=wdhome}"/>
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>-->
+                        </Button>
+                        <Rectangle x:Name="recHome"
+                                       Fill="#FF45B5AA" Panel.ZIndex="-1" 
+                                       RadiusX="15" RadiusY="15"
+                                       Visibility="Visible" StrokeDashArray="20"/>
+                    </Grid>
+                    <Grid x:Name="grPitch"
+                          HorizontalAlignment="Center"
+                          VerticalAlignment="Top"
+                          Height="40"
+                          Width="146"
+                          Margin="0,40,0,30">
+                        <materialDesign:PackIcon 
+                            VerticalAlignment="Top"
+                            Margin="0,5,0,0"
+                            x:Name="icPitch"
+                            Kind="Eye"
+                            Opacity="0.75"
+                            Foreground="Black"
+                            Height="30"
+                            Width="30"/>
+                        <Button
+                            x:Name="btnPitch"
+                            Margin="-3,0,0,0"
+                            Foreground="Black"
+                            FontFamily="Hierarchy"
+                            Opacity="0.75"
+                            Style="{StaticResource MaterialDesignRaisedLightButton}"
+                            
+                            Background="Transparent"
+                            BorderThickness="0"
+                            materialDesign:RippleAssist.Feedback="#cfcfc4"
+                            VerticalAlignment="Top"
+                            HorizontalAlignment="Stretch"
+                            Content="    Xem Tour"
+                            FontSize="18" Height="40" >
+                            <!--<i:Interaction.Triggers>
+                                <i:EventTrigger EventName="Click">
+                                    <i:InvokeCommandAction Command="{Binding OpengrPitchCommand}"
+                                                               CommandParameter="{Binding ElementName=wdhome}"/>
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>-->
+                        </Button>
+                        <Rectangle x:Name="recPitch"
+                                       Fill="#FF45B5AA" Panel.ZIndex="-1" 
+                                       RadiusX="15" RadiusY="15"
+                                       Visibility="Hidden" StrokeDashArray="20"/>
+                    </Grid>
+
+
+                    <Grid x:Name="grEmloy"
+                          HorizontalAlignment="Center" 
+                          VerticalAlignment="Top"
+                          Height="40"
+                          Width="146"
+                          Margin="0,50,0,30">
+                        <materialDesign:PackIcon 
+                            VerticalAlignment="Top"
+                            Margin="0,2,0,0"
+                            x:Name="icEmloy"
+                            Kind="AccountGroup"
+                            Foreground="Black"
+                            Opacity="0.75"
+                            Height="32"
+                            Width="32"/>
+                        <Button
+                            x:Name="btnEmloy"
+                            Margin="-3,4,0,0"
+                            Foreground="Black"
+                            FontFamily="Hierarchy"
+                            Opacity="0.75"
+                            Style="{StaticResource MaterialDesignRaisedLightButton}"
+                            
+                            Background="Transparent"
+                            BorderThickness="0"
+                            VerticalAlignment="Top"
+                            materialDesign:RippleAssist.Feedback="#cfcfc4"
+                            HorizontalAlignment="Stretch"
+                            Content="     Nhân viên"
+                            FontSize="18" Height="36">
+                            <!--<i:Interaction.Triggers>
+                                <i:EventTrigger EventName="Click">
+                                    <i:InvokeCommandAction Command="{Binding OpengrEmloyCommand}"
+                                                               CommandParameter="{Binding ElementName=wdhome}"/>
+                                </i:EventTrigger>
+
+                            </i:Interaction.Triggers>-->
+                        </Button>
+                        <Rectangle x:Name="recEmloy"
+                                        Fill="#FF45B5AA" Panel.ZIndex="-1" 
+                                       RadiusX="15" RadiusY="15"
+                                       Visibility="Hidden" StrokeDashArray="20"/>
+                    </Grid>
+                    <Grid x:Name="grSetting"
+                          HorizontalAlignment="Center"
+                          VerticalAlignment="Top"
+                          Height="40"
+                          Width="145"
+                          Visibility="Hidden"
+                          Margin="0,0,0,60">
+                        <materialDesign:PackIcon 
+                            VerticalAlignment="Top"
+                            Margin="0,6,0,0"
+                            x:Name="icSetting"
+                            Kind="CogOutline"
+                            Foreground="Black"
+                            Opacity="0.75"
+                            Height="32"
+                            Width="32"/>
+                        <Button
+                            x:Name="btnSetting"
+                            Margin="0,5,0,0"
+                            Foreground="Black"
+                            FontFamily="Hierarchy"
+                            Opacity="0.75"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            materialDesign:RippleAssist.Feedback="#cfcfc4"
+                            VerticalAlignment="Top"
+                            HorizontalAlignment="Stretch"
+                            Content="Cài đặt"
+                            FontSize="20" Height="36">
+                        </Button>
+                        <Rectangle  x:Name="recSetting"
+                                       Fill="#FF45B5AA" Panel.ZIndex="-1" 
+                                       RadiusX="15" RadiusY="15"
+                                       Visibility="Hidden" StrokeDashArray="20"/>
+                    </Grid>
+                    <Grid x:Name="grOut"
+                              Margin="0,130,0,0"
+                          HorizontalAlignment="Center"
+                          VerticalAlignment="Bottom"
+                          Height="40"
+                          Width="146">
+                        <materialDesign:PackIcon 
+                            VerticalAlignment="Top"
+                            Margin="0,6,0,0"
+                            x:Name="icOut"
+                            Kind="Export"
+                            Foreground="#FFFF4B4B"
+                            Opacity="0.75"
+                            Height="32"
+                            Width="32"/>
+                        <Button
+                            x:Name="btnOut"
+                            Command="{Binding LogOutCommand}"
+                            CommandParameter="{Binding ElementName=wdhome}"
+                            Margin="1,5,0,-1"
+                            Foreground="#FFFF4B4B"
+                            FontFamily="Hierarchy"
+                            Opacity="0.75"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            VerticalAlignment="Bottom"
+                            HorizontalAlignment="Stretch"
+                            Content="  Đăng xuất"
+                            FontSize="18" Height="36">
+                        </Button>
+                    </Grid>
+                </StackPanel>
+            </Grid>
+
+
+
+
+        </Grid>
+        <Grid 
+            Grid.Column="1" 
+            Background="White"
+            HorizontalAlignment="Left" 
+            Height="100"  
+            VerticalAlignment="Top" 
+            Width="1062" Margin="0.2,0,0,0">
+            <Label 
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Content="QUẢN LÝ TOUR DU LỊCH"
+                FontSize="50"
+                FontWeight="ExtraBold"
+                Foreground="#007FFF">
+            </Label>
+            <materialDesign:PackIcon
+                Kind="Airplane"
+                Foreground="#007FFF"
+                Height="50"
+                Width="50"
+                HorizontalAlignment="Left"
+                Margin="170,0,0,0"
+                VerticalAlignment="Center"/>
+            <materialDesign:PackIcon
+                Kind="Airplane"
+                Foreground="#007FFF"
+                Height="50"
+                Width="50"
+                HorizontalAlignment="Right"
+                Margin="0,0,170,0"
+                VerticalAlignment="Center"/>
+        </Grid>
+        <Grid x:Name="ChildForm"
+            HorizontalAlignment="Left" 
+            Height="674" 
+            Margin="180,100,0,0" 
+            VerticalAlignment="Top" 
+            Width="1063" Grid.ColumnSpan="2">
+            <Grid.Background>
+                <ImageBrush ImageSource="..\\Image\backgroundhome.jpg" />
+            </Grid.Background>
+        </Grid>
+    </Grid>
+</Window>

@@ -29,3 +29,7 @@ C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel
 C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\View\AddTour.baml
 C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\View\AddStaff.g.cs
 C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\View\AddStaff.baml
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\View\ForgetPass.g.cs
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\View\ForgetPass.baml
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\View\MainScreen.g.cs
+C:\Users\phong\Documents\Công nghệ phần mềm\Travel Manager Project\Travel Manager\obj\Debug\View\MainScreen.baml
